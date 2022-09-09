@@ -1,0 +1,27 @@
+button{
+    font-weight: normal;
+    font-size: 1.7em;
+    box-shadow: 1px 1px 3px black;
+    border:none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: grey;
+}
+
+.ready-button{
+    background-color:  #1fff1f ;
+    
+}
+
+.del-button{
+    background-color: #ff0000;
+}
+
+.ready-button:hover{
+    background-color:  #1ce31c ;
+}
+
+.del-button:hover{
+    background-color: #e20000;
+}
