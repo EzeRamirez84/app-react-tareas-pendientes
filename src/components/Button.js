@@ -1,9 +1,13 @@
 import React from 'react';
 import '../stylesheets/Button.css'
 
-function Button({text,
+function Button({
+  text,
   isReadyButton, 
-  clickHandle}){
+  clickHandle,
+  
+  })
+  {
   return(
     <button 
       className={isReadyButton?'ready-button':'del-button'}

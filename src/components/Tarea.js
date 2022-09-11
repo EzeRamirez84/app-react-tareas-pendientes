@@ -7,7 +7,7 @@ import '../stylesheets/Tarea.css'
 function Tarea(props){
   const [title, setTitle] = useState(props.title);
   const [date, setDate] = useState(props.date);
-  const [idTask, setId] = useState(props.idTask);
+  const [idTask, setId] = useState(props.id);
   const [itsDone, setItsDone] = useState(props.itsDone);
 
   const makeTaskDone=()=>{
@@ -30,6 +30,7 @@ function Tarea(props){
           text='Del'
           isReadyButton={false} 
           clickHandle={props.delButtonHandle}
+          
           />
       </div>
     </div>
