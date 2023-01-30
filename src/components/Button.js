@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import '../stylesheets/Button.css'
+import { FiCheckCircle, FiXCircle } from "react-icons/fi";
 
 function Button({
-  text,
   isReadyButton, 
   clickHandle,
   
@@ -10,10 +10,11 @@ function Button({
   {
   return(
     <button 
-      className={isReadyButton?'ready-button':'del-button'}
+      className={ isReadyButton ?'ready-button':'del-button'}
       onClick={clickHandle}
       >
-      {text}
+      {isReadyButton ? <FiCheckCircle className="svg-icon"/> : <FiXCircle className="svg-icon"/>}
+      
     </button>
   )
 }

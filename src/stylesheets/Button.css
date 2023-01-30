@@ -25,3 +25,8 @@ button:hover{
 .del-button:hover{
     background-color: #e20000;
 }
+
+.svg-icon {
+    height: 1.5em;
+    width: 1.5em;
+}

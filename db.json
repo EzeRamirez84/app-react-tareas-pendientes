@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "title": "Estudiar mas React",
+      "date": "2023-01-30",
+      "idTask": "sadas",
+      "itsDone": false,
+      "id": "CDCDCDCD"
+    },
+    {
+      "title": "Hacer flexiones",
+      "date": "2023-01-28",
+      "idTask": "645645645645",
+      "itsDone": false,
+      "id": "BBBBB"
+    },
+    {
+      "title": "Rendir CADP",
+      "date": "2022-08-01",
+      "idTask": "3",
+      "itsDone": true,
+      "id": "AAAAAA"
+    },
+    {
+      "title": "Alimentar al gato",
+      "date": "2023-01-08",
+      "idTask": "4dddd",
+      "itsDone": true,
+      "id": "RET3$sd"
+    },
+    {
+      "title": "Hola",
+      "date": "1978-04-15",
+      "idTask": "e187bda3-d413-0163-8ad7-b28f1a7a3452",
+      "itsDone": false,
+      "id": "5DnCmRF"
+    },
+    {
+      "title": "Rendir Taller",
+      "date": "2023-02-09",
+      "idTask": "b51a37dd-ddb1-e812-fecd-3b6abf6420e4",
+      "itsDone": false,
+      "id": "7nGirF5"
+    }
+  ]
+}
