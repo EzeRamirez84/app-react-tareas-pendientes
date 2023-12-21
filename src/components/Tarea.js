@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import Button from './Button.js';
-import '../stylesheets/Tarea.css'
+// import '../stylesheets/Tarea.css'
+import '../stylesheets/TareaGrid.css'
 
 
 
@@ -16,11 +17,11 @@ function Tarea(props){
   }
   return (
     <div className='task'>
-      <div className='info-container'>
+      {/* <div className='info-container'> */}
         <div className={itsDone?'title-strike':'title'}>{title}</div>
         <div className='date'>Fecha: {date.getDate()}/
         {date.getMonth()+1}/{date.getFullYear()}</div>
-      </div>      
+      {/* </div>       */}
       <div className='buttons-container'>
         <Button 
           isReadyButton={true} 

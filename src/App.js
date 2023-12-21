@@ -7,6 +7,9 @@ import Tarea from './components/Tarea';
 import axios from 'axios';
 import Popup from './components/Popup';
 import uuid from 'react-uuid';
+
+
+
 function App() {
   const [tareas, setTareas] = useState(
     []
@@ -23,6 +26,9 @@ function App() {
       .then(response =>{
         console.log('promesa cumplida',response);
         setTareas(response.data);
+      })
+      .catch(error => {
+        console.error('Error de conexion:', error)
       })
   },[])
   const toggleFormOpen=()=>{

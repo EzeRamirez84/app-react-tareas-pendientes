@@ -4,6 +4,12 @@ button{
     box-shadow: 1px 1px 3px black;
     border:none;
     border-radius: 10px;
+
+    margin: 5px;
+    padding: 5px;
+    min-width: 100px;
+    min-height: 70px;
+    cursor:pointer;
 }
 button:hover{
     background-color: grey;
@@ -29,4 +35,18 @@ button:hover{
 .svg-icon {
     height: 1.5em;
     width: 1.5em;
+}
+
+@media only screen and (max-width: 300px) {
+  .svg-icon {
+    height: 0.7em;
+    width: 0.7em;
+  }
+  button{
+    margin: 5px;
+    padding: 5px;
+    min-width: 50px;
+    min-height: 35px;
+    cursor:pointer;
+  }
 }
